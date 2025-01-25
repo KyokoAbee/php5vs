@@ -26,6 +26,9 @@ try {
     echo json_encode(["sql error" => "{$e->getMessage()}"]);
     exit();
 }
+
+// ログインしているかをチェック
+$is_logged_in = isset($_SESSION['username']);
 ?>
 
 
