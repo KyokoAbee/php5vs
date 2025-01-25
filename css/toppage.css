@@ -71,6 +71,7 @@ footer {
 
 .comment-info {
     margin-top: 10px;
+    margin-bottom: 20px;
     font-size: 0.8rem;
     color: #666;
 }
@@ -92,6 +93,7 @@ h2 {
     cursor: pointer;
     text-decoration: none;
     font-family: 'Courier New', Courier, monospace;
+
 }
 
 .cta-button:hover {
