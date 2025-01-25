@@ -1,0 +1,110 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #faf3e0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #ff8c00;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-bottom: 2px solid #d2691e;
+}
+
+footer {
+    background-color: #d2691e;
+    color: white;
+    text-align: center;
+    padding: 0.5rem 0;
+    font-size: 0.9rem;
+    margin-top: auto;
+    border-top: 2px solid #ff8c00;
+}
+
+.container {
+    background: #fff8e7;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    padding: 20px;
+    margin: 2rem auto;
+    border: 1px solid #d2691e;
+}
+
+.comment {
+    background-color: white;
+    border: 1px solid #d2691e;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.comment:hover {
+    transform: scale(1.02);
+}
+
+.comment-title a,
+.comment-body a {
+    text-decoration: none;
+    color: #ff8c00;
+}
+
+.comment-title a:hover,
+.comment-body a:hover {
+    color: #d2691e;
+
+}
+
+.comment-body {
+    margin-top: 10px;
+    color: #333;
+}
+
+.comment-info {
+    margin-top: 10px;
+    font-size: 0.8rem;
+    color: #666;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cta-button {
+    background: #ff8c00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 50%;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cta-button:hover {
+    background: #d2691e;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .cta-button {
+        width: 100%;
+    }
+}
